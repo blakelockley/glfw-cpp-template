@@ -1,5 +1,5 @@
 CPP=g++
-CFLAGS=-lglfw -framework OpenGL -Ilib -Wno-deprecated 
+CFLAGS=-lglfw -lglew -framework OpenGL -Ilib -Wno-deprecated 
 
 build/main: src/*
 	mkdir -p build
